@@ -1,10 +1,11 @@
 # O repositório computacaografica guarda só as atividades entregues.
-# Por padrão tudo é ignorado; cada atividade nova entra na lista abaixo.
+# Tudo é ignorado por padrão e qualquer pasta atividadeN/ entra sozinha,
+# sem precisar mexer neste arquivo a cada entrega.
 
 /*
 
 !.gitignore
-!atividade1/
+!/atividade*/
 
 # nunca versionar dependências nem build
 node_modules/
