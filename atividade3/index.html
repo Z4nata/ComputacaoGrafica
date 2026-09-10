@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong</title>
+
+    <style>
+        body {
+            background: #ffffff;
+            color: #222222;
+            font-family: system-ui, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            padding: 40px;
+        }
+
+        canvas {
+            outline: 1px solid #cccccc;
+        }
+
+        p {
+            font-size: 14px;
+            margin: 0;
+            text-align: center;
+        }
+
+        #mensagem {
+            font-weight: bold;
+            min-height: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <p id="mensagem"></p>
+
+    <p>
+        Jogador verde (esquerda): W sobe, S desce.<br>
+        Jogador azul (direita): seta para cima sobe, seta para baixo desce.<br>
+        C liga/desliga o computador na barra azul, P pausa e R reinicia.<br>
+        Vence quem fizer 5 pontos primeiro.
+    </p>
+
+    <script src="m3.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
