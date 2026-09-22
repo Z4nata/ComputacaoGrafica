@@ -5,6 +5,7 @@
 /*
 
 !.gitignore
+!README.md
 !/atividade*/
 
 # nunca versionar dependências nem build
